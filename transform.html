@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>demo css</title>
+    <style>
+        div
+        {
+            height: 180px;
+            width: 180px;
+            transition: 2s;
+            background-color: aqua;
+                       
+        }
+        #translstediv:hover
+         {
+            transform:translate(50px,50px);
+            background-color:Blue;
+            color:Yellow; 
+        
+         }
+         #rotate:hover{
+            transform: rotate(360deg);
+            background-color: darksalmon;
+
+         }
+        #rotate3d:hover{
+            transform: rotate3d(1,1,1,180deg);
+            background-color: darkgreen;
+        }
+        #skew:hover{
+            transform: skew(45deg);
+            background-color: darkorange;
+        }
+        #TextShadowDiv:hover
+            {
+                text-shadow:10px 10px 0px red;
+                 background-color: aquamarine5;
+            }
+        #BoxShadowDiv:hover
+        {
+            box-shadow: 10px 10px 0px blanchedalmond;
+        }    
+        #over:hover{
+            overflow: 30s;
+        }  
+    </style>
+</head>
+<body>
+     <div id="translstediv">translate</div><hr>
+     <div id="rotate" >rotate</div><hr>
+     <div id="rotate3d">rotate 3d</div><hr>
+     <div id="skew">skew</div><hr>
+     <div id="TextShadowDiv">TextShadowDiv</div><hr>
+     <div id="BoxShadowDiv">BoxShadowDiv</div><hr>
+    <div id="over">overflow
+        This is a AWT lab!
+    </div>
+</body>
+</html>
